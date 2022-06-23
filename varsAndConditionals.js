@@ -26,7 +26,7 @@ if (jonSnowHealth<=jamieLannisterAttack){
     console.log(`Jon Snow's health is ${jonSnowHealth}`)
 }
 jonSnowDefense+= 25
-//Jamie attacks again - use an if/else to determine if Jon Snow can survive the attack. Make sure to account for Jon's defense. If he does not, console.log "Jon Snow has been slain." Otherwise, console.log Jon Snow's health. health to the appropriate level
+// Jamie attacks again - use an if/else to determine if Jon Snow can survive the attack. Make sure to account for Jon's defense. If he does not, console.log "Jon Snow has been slain." Otherwise, console.log Jon Snow's health. health to the appropriate level
 
 if (jonSnowHealth<=jamieLannisterAttack-jonSnowDefense){
     console.log(`Jon Snow has been slain`)
